@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
-public class BrokerConfiguration {
+public class ProducerConfiguration {
 
     @Value("${kafka.brokers}")
     private String server;

@@ -1,5 +1,6 @@
 package com.tushar.kafka.springbootkafkaproducerexample.config;
 
+import com.tushar.kafka.springbootkafkaproducerexample.common.Constants;
 import com.tushar.kafka.springbootkafkaproducerexample.model.Employee;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
@@ -10,6 +11,7 @@ import org.springframework.kafka.core.DefaultKafkaProducerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.core.ProducerFactory;
 import org.springframework.kafka.support.serializer.JsonSerializer;
+import org.springframework.web.reactive.function.client.WebClient;
 
 import java.util.HashMap;
 import java.util.Map;
